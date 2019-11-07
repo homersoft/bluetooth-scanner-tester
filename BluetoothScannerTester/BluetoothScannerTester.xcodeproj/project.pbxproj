@@ -13,6 +13,9 @@
 		8061B82523730AC80079DF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8061B82423730AC80079DF16 /* Assets.xcassets */; };
 		8061B82823730AC80079DF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8061B82623730AC80079DF16 /* LaunchScreen.storyboard */; };
 		8061B83323730AC80079DF16 /* BluetoothScannerTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061B83223730AC80079DF16 /* BluetoothScannerTesterTests.swift */; };
+		8061B83F2373140E0079DF16 /* CentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061B83E2373140E0079DF16 /* CentralManager.swift */; };
+		8061B8412373189A0079DF16 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061B8402373189A0079DF16 /* NotificationCenter.swift */; };
+		8061B843237319B20079DF16 /* NotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061B842237319B20079DF16 /* NotificationObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		8061B82E23730AC80079DF16 /* BluetoothScannerTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothScannerTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8061B83223730AC80079DF16 /* BluetoothScannerTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScannerTesterTests.swift; sourceTree = "<group>"; };
 		8061B83423730AC80079DF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8061B83E2373140E0079DF16 /* CentralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralManager.swift; sourceTree = "<group>"; };
+		8061B8402373189A0079DF16 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		8061B842237319B20079DF16 /* NotificationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		8061B81A23730AC70079DF16 /* BluetoothScannerTester */ = {
 			isa = PBXGroup;
 			children = (
+				8061B83E2373140E0079DF16 /* CentralManager.swift */,
+				8061B8402373189A0079DF16 /* NotificationCenter.swift */,
+				8061B842237319B20079DF16 /* NotificationObserver.swift */,
 				8061B81B23730AC70079DF16 /* AppDelegate.swift */,
 				8061B81F23730AC70079DF16 /* ViewController.swift */,
 				8061B82123730AC70079DF16 /* Main.storyboard */,
@@ -199,6 +208,9 @@
 			files = (
 				8061B82023730AC70079DF16 /* ViewController.swift in Sources */,
 				8061B81C23730AC70079DF16 /* AppDelegate.swift in Sources */,
+				8061B83F2373140E0079DF16 /* CentralManager.swift in Sources */,
+				8061B8412373189A0079DF16 /* NotificationCenter.swift in Sources */,
+				8061B843237319B20079DF16 /* NotificationObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
