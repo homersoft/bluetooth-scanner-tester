@@ -59,8 +59,8 @@ class ViewController: UIViewController {
         lastDeviceFoundDate = Date()
         lastUniqueDevicesCount = uniqueDeviceUuids.count
 
-        if elapsedTime > 1.0 {
-            log("gap: \(elapsedTime) \twhen \(lastUniqueDevicesCount) devices")
+        if elapsedTime > 2 {
+            log(String(format: "gap: %.2f \twhen \(lastUniqueDevicesCount) devices", elapsedTime))
         }
     }
 
